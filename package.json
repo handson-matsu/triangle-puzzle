@@ -1,0 +1,11 @@
+{
+  "name": "triangle-puzzle",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/rules.cjs && node tests/solver.cjs",
+    "test:browser": "node tests/browser.cjs && node tests/access.cjs",
+    "generate": "node tools/generate.cjs"
+  },
+  "devDependencies": {"playwright": "^1.58.0"}
+}
